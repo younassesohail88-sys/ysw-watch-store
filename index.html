@@ -1,0 +1,114 @@
+index.html
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>YSW | Youness Souhail Watches</title>
+<meta name="description" content="Discover men's watches at YSW. Great prices and free delivery throughout Morocco.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--gold:#d4af37;--black:#0b0b0b;--card:#171717}
+body{font-family:Arial,sans-serif;background:var(--black);color:white;line-height:1.6}
+header{padding:22px 7%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #333}
+.logo{font-size:27px;font-weight:bold;letter-spacing:3px;color:var(--gold)}
+.logo span{display:block;font-size:10px;letter-spacing:2px;color:white}
+nav a{color:white;text-decoration:none;margin-left:20px;font-size:14px}
+.hero{text-align:center;padding:85px 20px;background:radial-gradient(ellipse at top,#42351a 0%,#111 55%,#0b0b0b 100%)}
+.hero h1{font-size:clamp(36px,6vw,65px);line-height:1.15;margin-bottom:18px}
+.hero h1 span{color:var(--gold)}
+.hero p{color:#ddd;margin:10px auto;max-width:550px}
+.btn{display:inline-block;background:var(--gold);color:#111;padding:13px 24px;border-radius:4px;text-decoration:none;font-weight:bold;margin-top:20px;border:0;cursor:pointer}
+.benefits{display:flex;justify-content:center;gap:35px;flex-wrap:wrap;padding:22px 10px;background:#151515;color:var(--gold);font-size:14px}
+section{padding:55px 7%}
+.section-title{text-align:center;font-size:30px;margin-bottom:10px}
+.section-title span{color:var(--gold)}
+.subtitle{text-align:center;color:#aaa;margin-bottom:35px}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
+.product{background:var(--card);border:1px solid #292929;border-radius:8px;overflow:hidden;text-align:center;padding-bottom:22px}
+.product img{width:100%;height:230px;object-fit:contain;background:#222;padding:10px}
+.product h3{margin:15px 8px 5px}
+.product p{color:#bbb;font-size:14px}
+.price{color:var(--gold);font-size:25px;font-weight:bold;margin:8px}
+.order{display:inline-block;background:#d4af37;color:#111;text-decoration:none;padding:11px 18px;border-radius:4px;font-weight:bold;margin-top:10px}
+.note{text-align:center;color:#999;font-size:13px;margin-top:25px}
+.about{text-align:center;background:#141414}
+.about p{max-width:650px;margin:15px auto;color:#ccc}
+footer{text-align:center;padding:30px 15px;color:#999;border-top:1px solid #333}
+footer strong{color:var(--gold)}
+@media(max-width:600px){header{padding:18px 5%;flex-direction:column;gap:12px}nav a{margin:0 8px}.hero{padding:65px 18px}section{padding:40px 5%}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">YSW<span>YOUNESS SOUHAIL WATCHES</span></div>
+  <nav><a href="#home">Home</a><a href="#watches">Watches</a><a href="#contact">Contact</a></nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <h1>TIME TO <span>STAND OUT.</span></h1>
+  <p>Discover men's watches that combine style, elegance and great value.</p>
+  <p>🚚 FREE DELIVERY THROUGHOUT MOROCCO</p>
+  <a class="btn" href="#watches">EXPLORE OUR WATCHES</a>
+</section>
+
+<div class="benefits">
+  <span>⌚ Elegant Men's Watches</span>
+  <span>🚚 Free Delivery in Morocco</span>
+  <span>💵 Cash on Delivery</span>
+</div>
+
+<section id="watches">
+  <h2 class="section-title">OUR <span>WATCHES</span></h2>
+  <p class="subtitle">Choose your style and order directly on WhatsApp.</p>
+
+  <div class="products">
+    <article class="product">
+      <img src="https://placehold.co/500x400/222222/d4af37?text=YOUR+WATCH+PHOTO" alt="Men's watch model 1">
+      <h3>YSW Watch — Model 01</h3>
+      <p>Elegant style for every occasion</p>
+      <div class="price">179 DH</div>
+      <a class="order" href="https://wa.me/212674761127?text=Hello%20YSW%2C%20I%20want%20to%20order%20Model%2001%20for%20179%20DH." target="_blank" rel="noopener">ORDER ON WHATSAPP</a>
+    </article>
+
+```
+<article class="product">
+  <img src="https://placehold.co/500x400/222222/d4af37?text=YOUR+WATCH+PHOTO" alt="Men's watch model 2">
+  <h3>YSW Watch — Model 02</h3>
+  <p>Modern design, timeless elegance</p>
+  <div class="price">179 DH</div>
+  <a class="order" href="https://wa.me/212674761127?text=Hello%20YSW%2C%20I%20want%20to%20order%20Model%2002%20for%20179%20DH." target="_blank" rel="noopener">ORDER ON WHATSAPP</a>
+</article>
+
+<article class="product">
+  <img src="https://placehold.co/500x400/222222/d4af37?text=YOUR+WATCH+PHOTO" alt="Men's watch model 3">
+  <h3>YSW Watch — Model 03</h3>
+  <p>A distinctive look for your style</p>
+  <div class="price">199 DH</div>
+  <a class="order" href="https://wa.me/212674761127?text=Hello%20YSW%2C%20I%20want%20to%20order%20Model%2003%20for%20199%20DH." target="_blank" rel="noopener">ORDER ON WHATSAPP</a>
+</article>
+```
+
+  </div>
+  <p class="note">Product photos are temporary placeholders. We will replace them with your real watch photos later.</p>
+</section>
+
+<section class="about">
+  <h2 class="section-title">WHY CHOOSE <span>YSW?</span></h2>
+  <p>We help you find stylish men's watches at attractive prices. Enjoy free delivery throughout Morocco and pay when your order arrives.</p>
+  <a class="btn" href="https://wa.me/212674761127?text=Hello%20YSW%2C%20I%20would%20like%20more%20information." target="_blank" rel="noopener">CONTACT US ON WHATSAPP</a>
+</section>
+</main>
+
+<footer id="contact">
+  <p><strong>YSW — YOUNESS SOUHAIL WATCHES</strong></p>
+  <p>Free delivery throughout Morocco 🇲🇦</p>
+  <p>WhatsApp: 0674761127</p>
+  <p>© 2026 YSW. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
